@@ -1,0 +1,31 @@
+<head>
+	<style>
+	/*Hide the list item that willl pop-up when the website is being used by a small screen*/
+	ul.top-nav-bar li.icon {display: none;}
+
+	/* The code below removes the margins and padding*/
+	ul.top-nav-bar {
+		list-style-type:none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+/* Float the list items side by side*/
+	ul.top-nav-bar li{float:left;}
+
+	/*the code below will Change the background colour of  the links as the user hovers above them*/
+	ul.top-nav-bar li a:hover {background-color: #555;}
+
+	/*Style the links inside the list items*/
+	ul.top-nav-bar li a{
+		display:inline-block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		transition: 0.5s ;
+		font-size: 15px;
+	}
+	</style>
+</head>
